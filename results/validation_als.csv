@@ -1,0 +1,5 @@
+model,parameters,NDCG@10,Recall@10,evaluated_users,fit_seconds,evaluation_seconds
+iALS,"{""alpha"": 20.0, ""factors"": 32, ""iterations"": 8, ""regularization"": 1.0, ""seed"": 42}",0.0343831776767231,0.0591827409100273,3313,13.780061,0.545352
+Custom_iALS,"{""alpha"": 20.0, ""factors"": 32, ""iterations"": 8, ""regularization"": 1.0, ""seed"": 42}",0.0305575094398951,0.0525424733732913,3313,13.874608,0.646531
+iALS,"{""alpha"": 20.0, ""factors"": 32, ""iterations"": 8, ""regularization"": 10.0, ""seed"": 42}",0.0357579392124841,0.0614006750703098,3313,14.497882,0.523775
+Custom_iALS,"{""alpha"": 20.0, ""factors"": 32, ""iterations"": 8, ""regularization"": 10.0, ""seed"": 42}",0.0321184748434679,0.0554494919005936,3313,13.741818,0.537581

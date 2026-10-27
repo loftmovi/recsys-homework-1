@@ -1,0 +1,33 @@
+{
+  "ItemCF": {
+    "neighbors": 50,
+    "shrink": 10.0
+  },
+  "EASE": {
+    "regularization": 500.0
+  },
+  "iALS": {
+    "factors": 32,
+    "regularization": 10.0,
+    "alpha": 20.0,
+    "iterations": 8,
+    "seed": 42
+  },
+  "Custom_iALS": {
+    "factors": 32,
+    "regularization": 10.0,
+    "alpha": 20.0,
+    "iterations": 8,
+    "seed": 42
+  },
+  "FM": {
+    "factors": 16,
+    "learning_rate": 0.01,
+    "weight_decay": 1e-05,
+    "epochs": 5,
+    "negatives": 2,
+    "batch_size": 2048,
+    "seed": 42,
+    "use_metadata": true
+  }
+}

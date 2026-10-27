@@ -1,0 +1,3 @@
+model,parameters,NDCG@10,Recall@10,evaluated_users,fit_seconds,evaluation_seconds
+FM,"{""batch_size"": 2048, ""epochs"": 5, ""factors"": 16, ""learning_rate"": 0.01, ""negatives"": 2, ""seed"": 42, ""use_metadata"": true, ""weight_decay"": 1e-05}",0.028140577677423,0.0472885279427244,3313,10.59717,0.528013
+FM,"{""batch_size"": 2048, ""epochs"": 5, ""factors"": 32, ""learning_rate"": 0.01, ""negatives"": 2, ""seed"": 42, ""use_metadata"": true, ""weight_decay"": 1e-05}",0.0271530514229655,0.0446979024498954,3313,8.717851,0.534941

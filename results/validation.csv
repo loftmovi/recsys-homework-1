@@ -1,0 +1,11 @@
+model,parameters,NDCG@10,Recall@10,evaluated_users,fit_seconds,evaluation_seconds
+ItemCF,"{""neighbors"": 50, ""shrink"": 10.0}",0.0358186148680674,0.0591574538752323,3313,0.086476,0.17497
+ItemCF,"{""neighbors"": 100, ""shrink"": 10.0}",0.035481080024453,0.0576670068369434,3313,0.081299,0.241842
+EASE,"{""regularization"": 100.0}",0.0338504142514816,0.0568275091503549,3313,0.47796,0.597264
+EASE,"{""regularization"": 500.0}",0.0357652799910801,0.0617741718882945,3313,0.451332,0.631563
+iALS,"{""alpha"": 20.0, ""factors"": 32, ""iterations"": 8, ""regularization"": 1.0, ""seed"": 42}",0.0343831776767231,0.0591827409100273,3313,13.780061,0.545352
+Custom_iALS,"{""alpha"": 20.0, ""factors"": 32, ""iterations"": 8, ""regularization"": 1.0, ""seed"": 42}",0.0305575094398951,0.0525424733732913,3313,13.874608,0.646531
+iALS,"{""alpha"": 20.0, ""factors"": 32, ""iterations"": 8, ""regularization"": 10.0, ""seed"": 42}",0.0357579392124841,0.0614006750703098,3313,14.497882,0.523775
+Custom_iALS,"{""alpha"": 20.0, ""factors"": 32, ""iterations"": 8, ""regularization"": 10.0, ""seed"": 42}",0.0321184748434679,0.0554494919005936,3313,13.741818,0.537581
+FM,"{""batch_size"": 2048, ""epochs"": 5, ""factors"": 16, ""learning_rate"": 0.01, ""negatives"": 2, ""seed"": 42, ""use_metadata"": true, ""weight_decay"": 1e-05}",0.028140577677423,0.0472885279427244,3313,10.59717,0.528013
+FM,"{""batch_size"": 2048, ""epochs"": 5, ""factors"": 32, ""learning_rate"": 0.01, ""negatives"": 2, ""seed"": 42, ""use_metadata"": true, ""weight_decay"": 1e-05}",0.0271530514229655,0.0446979024498954,3313,8.717851,0.534941
