@@ -2,6 +2,8 @@
 
 Студент: Буравов Глеб Олегович.
 
+Физтеховская почта: buravov.go@phystech.edu или buravov.go@phystech.su
+
 Датасет: Amazon Reviews 2018 — Musical Instruments, 5-core.
 
 Первоисточник: https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/
